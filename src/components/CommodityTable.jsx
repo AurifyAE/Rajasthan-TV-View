@@ -70,8 +70,7 @@ const CommodityTable = ({ commodities }) => {
         <TableHead>
           <TableRow
             sx={{
-              backgroundColor: "#363636",
-              opacity: "90%",
+              backgroundColor: "#E8C6AC",
               "& th": {
                 borderBottom: "none",
               },
@@ -79,7 +78,7 @@ const CommodityTable = ({ commodities }) => {
           >
             <TableCell
               sx={{
-                color: "white",
+                color: "#155243",
                 fontWeight: "bold",
                 fontSize: "1.5vw",
                 textAlign: "center",
@@ -90,7 +89,7 @@ const CommodityTable = ({ commodities }) => {
             </TableCell>
             <TableCell
               sx={{
-                color: "white",
+                color: "#155243",
                 fontWeight: "bold",
                 fontSize: "2vw",
                 textAlign: "center",
@@ -100,7 +99,7 @@ const CommodityTable = ({ commodities }) => {
             </TableCell>
             <TableCell
               sx={{
-                color: "white",
+                color: "#155243",
                 fontWeight: "bold",
                 fontSize: "2vw",
                 textAlign: "center",
@@ -110,7 +109,7 @@ const CommodityTable = ({ commodities }) => {
             </TableCell>
             <TableCell
               sx={{
-                color: "white",
+                color: "#155243",
                 fontWeight: "bold",
                 fontSize: "2vw",
                 textAlign: "center",
@@ -171,11 +170,11 @@ const CommodityTable = ({ commodities }) => {
                 <TableRow
                   sx={{
                     "&:nth-of-type(odd)": {
-                      backgroundColor: "#f9f9f9",
+                      backgroundColor: "",
                       opacity: 0.9
                     },
                     "&:nth-of-type(even)": {
-                      backgroundColor: "#e6e6e6",
+                      backgroundColor: "#155243",
                       opacity: 0.9
                     },
                     "& td": {
@@ -185,7 +184,7 @@ const CommodityTable = ({ commodities }) => {
                 >
                   <TableCell
                     sx={{
-                      color: "black",
+                      color: "#FFFFFF",
                       fontSize: "2vw",
                       fontWeight: "bold",
                       textAlign: "right",
@@ -196,7 +195,7 @@ const CommodityTable = ({ commodities }) => {
                   </TableCell>
                   <TableCell
                     sx={{
-                      color: "black",
+                      color: "#FFFFFF",
                       fontSize: "1.8vw",
                       textAlign: "left",
                       paddingLeft: "0px",
@@ -208,7 +207,7 @@ const CommodityTable = ({ commodities }) => {
                   </TableCell>
                   <TableCell
                     sx={{
-                      color: "black",
+                      color: "#FFFFFF",
                       fontSize: "2vw",
                       fontWeight: "600",
                       textAlign: "center",
@@ -219,7 +218,7 @@ const CommodityTable = ({ commodities }) => {
                   </TableCell>
                   <TableCell
                     sx={{
-                      color: "black",
+                      color: "#FFFFFF",
                       fontSize: "2vw",
                       fontWeight: "600",
                       textAlign: "center",
@@ -230,7 +229,7 @@ const CommodityTable = ({ commodities }) => {
                   </TableCell>
                   <TableCell
                     sx={{
-                      color: "black",
+                      color: "#FFFFFF",
                       fontSize: "2vw",
                       fontWeight: "600",
                       textAlign: "center",

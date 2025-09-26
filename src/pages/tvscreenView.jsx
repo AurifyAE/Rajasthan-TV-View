@@ -5,6 +5,7 @@ import SpotRate from "../components/SpotRate";
 import CommodityTable from "../components/CommodityTable";
 import NewsTicker from "../components/News";
 import rajasthanLogo from "../assets/rajasthanLogo.png";
+import Carousel from "../components/Carousel";
 import {
   fetchSpotRates,
   fetchServerURL,
@@ -208,28 +209,26 @@ function TvScreen() {
     >
       <Box
         className="flex flex-row items-center justify-between"
-        sx={{
-          boxSizing: "border-box",
-          width: "80%",
-        }}
       >
         <Box className="flex flex-col items-center justify-between">
-          <img src={rajasthanLogo} alt="" className="w-80 h-52" />
+          <img src={rajasthanLogo} alt="" className="w-96 h-52" />
         </Box>
+
+        <Carousel />
 
         <Box
           className="flex flex-col"
           sx={{
-            alignItems: "flex-start",
+            alignItems: "flex-center",
           }}
         >
           <Box className="flex flex-row items-center justify-center">
             <Typography
               sx={{
                 color: "#FFF",
-                fontSize: "7vw",
+                fontSize: "5vw",
                 fontFamily: "Digital-7",
-                lineHeight : "1"
+                lineHeight: "1"
               }}
             >
               {time}
@@ -246,24 +245,23 @@ function TvScreen() {
               {meridian}
             </Typography>
           </Box>
+          <Typography
+            className="text-white font-semibold text-xl"
+            sx={{ fontSize: "1.8vw", letterSpacing: "5px" }}
+          >
+            {day.toUpperCase()}
+          </Typography>
           <Box
             sx={{
               display: "flex",
               flexDirection: "row",
             }}
           >
-            <Typography
-              className="text-white font-semibold text-xl"
-              sx={{ fontSize: "2vw" }}
-            >
-              {day.toUpperCase()},
-            </Typography>
             <Box className="flex flex-row">
               <Typography
                 className="text-white font-bold mx-2"
                 sx={{
-                  fontSize: "2vw",
-                  marginLeft: "13px",
+                  fontSize: "1.4vw",
                 }}
               >
                 {date}
@@ -271,22 +269,23 @@ function TvScreen() {
               <Typography
                 className="text-white font-bold mx-2"
                 sx={{
-                  fontSize: "2vw",
+                  fontSize: "1.4vw",
                   marginLeft: "13px",
                 }}
               >
                 {month}
               </Typography>
+              <Typography
+                className="text-white font-bold mx-2"
+                sx={{
+                  fontSize: "1.4vw",
+                  marginLeft: "13px",
+                }}
+              >
+                {year}
+              </Typography>
             </Box>
           </Box>
-          <Typography
-            className="text-white font-bold mx-2"
-            sx={{
-              fontSize: "2vw",
-            }}
-          >
-            {year}
-          </Typography>
         </Box>
       </Box>
 

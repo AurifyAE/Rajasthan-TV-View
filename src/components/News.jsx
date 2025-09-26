@@ -5,31 +5,24 @@ const NewsTicker = ({ newsItems }) => {
   return (
     <Box
       sx={{
-        backgroundColor: "#FFFFFF",
-        opacity: "85%",
+        backgroundColor: "#155243",
         display: "flex",
-        flexDirection: "row",
-        alignItems: "center",
-        justifyContent: "center",
+        flexDirection: "column",
         height: "50px",
-        marginTop: "7px",
+        marginTop: "50px",
       }}
     >
       <Box
-        className="flex flex-col justify-center items-center"
         sx={{
-          backgroundColor: "#363636",
-          color: "white",
-          width: "400px",
-          height: "100%",
-          marginLeft: "10px",
+          backgroundColor: "#E8C6AC",
+          color: "#155243",
+          width: "130px",
+          height: "35px",
+          marginTop: "-35px",
         }}
       >
         <Typography sx={{ fontSize: "1.5vw", fontWeight: "bold", padding: '0px' }}>
-          RAJASTHAN GOLD
-        </Typography>
-        <Typography sx={{ fontSize: "1vw", fontWeight: "bold", padding: '0px', marginTop: '-10px' }}>
-          Latest News
+          NEWS
         </Typography>
       </Box>
 
@@ -38,7 +31,6 @@ const NewsTicker = ({ newsItems }) => {
           width: "100%",
           overflow: "hidden",
           whiteSpace: "nowrap",
-          position: "relative",
         }}
       >
         <Box
@@ -46,7 +38,7 @@ const NewsTicker = ({ newsItems }) => {
           sx={{
             display: "inline-block",
             animation: "scroll 40s linear infinite",
-            color: "black",
+            color: "#155243",
             fontSize: "2vw",
             textAlign: "center",
           }}
@@ -58,7 +50,7 @@ const NewsTicker = ({ newsItems }) => {
               sx={{
                 marginRight: "4vw",
                 display: "inline-block",
-                color: "black",
+                color: "#155243",
                 fontSize: "2vw",
               }}
             >

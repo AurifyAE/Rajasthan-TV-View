@@ -8,7 +8,7 @@ const NewsTicker = ({ newsItems }) => {
         backgroundColor: "#155243",
         display: "flex",
         flexDirection: "column",
-        height: "50px",
+        height: "60px",
         marginTop: "50px",
       }}
     >
@@ -38,7 +38,7 @@ const NewsTicker = ({ newsItems }) => {
           sx={{
             display: "inline-block",
             animation: "scroll 40s linear infinite",
-            color: "#155243",
+            color: "#FFFFFF",
             fontSize: "2vw",
             textAlign: "center",
           }}
@@ -50,7 +50,7 @@ const NewsTicker = ({ newsItems }) => {
               sx={{
                 marginRight: "4vw",
                 display: "inline-block",
-                color: "#155243",
+                color: "#FFFFFF",
                 fontSize: "2vw",
               }}
             >
